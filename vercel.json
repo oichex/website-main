@@ -1,8 +1,16 @@
 {
-    "rewrites": [
-      { "source": "/technologies", "destination": "/technologies.html" },
-      { "source": "/repositories", "destination": "/repositories.html" },
-      { "source": "/", "destination": "/index.html" }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/repositories",
+      "destination": "/repositories.html"
+    },
+    {
+      "source": "/technologies",
+      "destination": "/technologies.html"
+    }
+  ]
+} 
